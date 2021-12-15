@@ -5,27 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>Hand Written Notes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Hand-Written Notes</a>
+        <a class="navbar-brand mx-4"style="font-size: 2rem;" href="#">Hand-Written Notes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto"></ul>
+            <form class="form-inline my-2 my-lg-0 mx-4">
                 <input id="searchtxt"class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
@@ -33,8 +28,8 @@
     </nav>
 
 
-    <div class="container my-3">
-        <h1>Welcome to Hand-Written Notes</h1>
+    <div style="width: 75vw;" class="container my-3 m-auto">
+        <h1 class="my-5">Welcome to Hand-Written Notes</h1>
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Add a Note</h5>
@@ -44,14 +39,14 @@
                 <button class="btn btn-primary" id="addbtn">Add Note</button>
             </div>
         </div>
-        <h1>Your Notes</h1>
+        <h1 class="my-4">Your Notes</h1>
         <hr>
         <div id="notes" class="row container-fluid">
             <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Note</h5>
                     <p class="card-text"></p>
-                    <button href="#" class="btn btn-primary">Delete Note</button>
+                    <button class="btn btn-outline-success">Delete Note</button>
                 </div>
             </div>
         </div>
