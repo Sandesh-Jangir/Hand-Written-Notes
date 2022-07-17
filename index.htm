@@ -9,25 +9,18 @@
 </head>
 
 <body>
-<form>
-    <input id="searchtxt" type="search" placeholder="Search" aria-label="Search">
-</form>
+    <form>
+        <input id="searchtxt" placeholder="Search" aria-label="Search">
+    </form>
 
-    <div style="width: 75vw;">
-        <div>
-            <div>
-                <h5>Add a Note</h5>
-                <div>
-                    <textarea id="addTxt" rows="3" placeholder="Your Note Here" aria-label="Your Note Here"></textarea>
-                </div>
-                <button id="addbtn">Add Note</button>
-            </div>
-        </div>
-        <h1 class="my-4">Your Notes</h1>
-        <hr>
-        <div id="notes"></div>
-        </div>
-    </div>
+    <div class="add-container">
+    <input id="addTxt" rows="3" placeholder="Your Note Here" aria-label="Your Note Here"></input>
+    <button id="addbtn">Add Note</button>
+</div>
+    <h1>Your Notes</h1>
+    <div id="notes"></div>
+
+    <!-- Scripts -->
     <script src="index.js"></script>
 
 </body>
