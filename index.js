@@ -60,6 +60,8 @@ function deleteNote(index){
     localStorage.setItem("notes", JSON.stringify(notesObj));
     showNotes()
 }
+
+// Searching Through Notes
 let search = document.getElementById('searchtxt');
 search.addEventListener("input", function(){
     let inputval = search.value
