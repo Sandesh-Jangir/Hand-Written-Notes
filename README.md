@@ -1,6 +1,6 @@
 # Hand Written Notes
 
-It is a JavaScript centric project, in which you can add and delete notes. It uses local storage to store your notes, then it fetches your notes and then presents it on "Your Notes" section. Although Javascript code is made from scratch whereas for front-end I have used Bootstrap framework.
+It is a JavaScript centric project, in which you can add and delete notes. It uses local storage to store your notes, then it fetches your notes and then presents it on "Your Notes" section. Although the whole project is made from scratch (including the design and frontend).
 
 ## Features
 
