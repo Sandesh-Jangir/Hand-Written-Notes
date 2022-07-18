@@ -91,6 +91,10 @@ h1{
         width: 20vw;
     }
     .add-container{
-        margin-top: 20%;
+        margin-top: 30%;
+    }
+    #notes{
+        grid-template-columns: 1fr;
+        margin-bottom: 20%;
     }
 }
