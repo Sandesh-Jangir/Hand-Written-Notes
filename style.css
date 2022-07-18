@@ -80,3 +80,17 @@ h1{
     width: 73vw;
     margin: 4rem auto;
 }
+
+/* Making It Responsive */
+
+@media (max-width:800px) {
+    #addTxt{
+        width: 50vw;
+    }
+    #addbtn{
+        width: 20vw;
+    }
+    .add-container{
+        margin-top: 20%;
+    }
+}
