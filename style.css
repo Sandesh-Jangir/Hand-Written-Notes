@@ -84,6 +84,15 @@ h1{
     position: absolute;
     top: 20px;
     left: 20px;
+    padding: 20px;
+    background-color: #967bdc;
+    border-radius: 10px;
+    color: white;
+    width: 30vw;
+    text-align: center;
+}
+.credit a{
+    color: white;
 }
 /* Making It Responsive */
 
