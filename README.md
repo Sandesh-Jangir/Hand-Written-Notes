@@ -4,16 +4,6 @@ It is a JavaScript centric project, in which you can add and delete notes. It us
 
 ## Features
 
-- Secured Notes 
-- Access your notes offline
+- Secured Notes
 - Enhances Task-management
 - Big upcoming updates
-## How to access your notes offline?
-
-All of your notes are stored in your browser's local-storage ,so you can follow these steps to access your Hand Written Notes even offline.
-
-- Open your browser
-- Right-click, and select instpect
-- Select console
-- Write `localStorage` in opened console
-- Hit `Enter`
