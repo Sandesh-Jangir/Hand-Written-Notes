@@ -110,4 +110,10 @@ h1{
         grid-template-columns: 1fr;
         margin-bottom: 20%;
     }
+    .credit :nth-child(1){
+        display: none;
+    }
+    .credit a{
+        font-size: smaller;
+    }
 }
