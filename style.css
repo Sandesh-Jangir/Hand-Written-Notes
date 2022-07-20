@@ -87,9 +87,12 @@ h1{
     padding: 20px;
     background-color: #967bdc;
     border-radius: 10px;
-    color: white;
     width: 30vw;
     text-align: center;
+}
+.credit p{
+    color: white;
+    display: inline;
 }
 .credit a{
     color: white;
